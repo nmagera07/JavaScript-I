@@ -68,18 +68,18 @@ console.log(intern5Info.multiplyNums(3, 4))
 
 const parent = {
     "mom": {
-      "name": "Susan"
-      "age": 70;
+      "name": "Susan",
+      "age": 70;,
       "speak": `Hello my name is ${mom.name}`
-    }
+    },
     "son": {
-      "name": "George"
-      "age": 50
+      "name": "George",
+      "age": 50,
       "speak": `Hello my name is ${this.name}`
-    }
+    },
     "grandson": {
-      "name": "Sam"
-      "age": 30
+      "name": "Sam",
+      "age": 30,
       "speak": `Hello my name is ${this.name}`
     }
 }
