@@ -19,44 +19,43 @@ const example = {
 
 // Write your intern objects here:
 
-const internInfo =
+const mitzi =
   { "id": 1, "email": "mmelloy9@psu.edu", "name": "Mitzi", "gender": "F" }
 
-const intern2Info = { "id": 2, "email": "kdiben1@tinypic.com", "name": "Kennan", "gender": "M" }
+const kennan = { "id": 2, "email": "kdiben1@tinypic.com", "name": "Kennan", "gender": "M" }
 
-const intern3Info = { "id": 3, "email": "kmummery2@wikimedia.org", "name": "Keven", "gender": "M" }
+const keven = { "id": 3, "email": "kmummery2@wikimedia.org", "name": "Keven", "gender": "M" }
 
-const intern4Info = { "id": 4, "email": "gmartinson3@illinois.edu", "name": "Gannie", "gender": "M" }
+const gannie = { "id": 4, "email": "gmartinson3@illinois.edu", "name": "Gannie", "gender": "M" }
 
-const intern5Info = { "id": 5, "email": "adaine5@samsung.com", "name": "Antonietta", "gender": "F" };
+const antoinetta = { "id": 5, "email": "adaine5@samsung.com", "name": "Antonietta", "gender": "F" };
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
-console.log(internInfo.name)
+console.log(mitzi.name)
 // Kennan's ID
-console.log(intern2Info.id)
+console.log(kennan.id)
 // Keven's email
-console.log(intern3Info.email)
+console.log(keven.email)
 // Gannie's name
-console.log(intern4Info.name)
+console.log(gannie.name)
 // Antonietta's Gender
-console.log(intern5Info.gender)
+console.log(antoinetta.gender)
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
-intern2Info.speak = function () {
+kennan.speak = function () {
   return `Hello, my name is ${this.name}`
 }
-console.log(intern2Info.speak());
+console.log(kennan.speak());
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
-intern5Info.multiplyNums = function (a, b) {
+antoinetta.multiplyNums = function (a, b) {
   return a * b;
 }
-
-console.log(intern5Info.multiplyNums(3, 4))
+console.log(antoinetta.multiplyNums(3, 4))
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
 // ==== Stretch Challenge: Nested Objects and the this keyword ==== 
